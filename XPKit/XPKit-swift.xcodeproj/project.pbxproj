@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A51743211CF2D32500CB5C5F /* UIControl+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51743201CF2D32500CB5C5F /* UIControl+XPKit.swift */; };
+		A51743231CF2D99A00CB5C5F /* UINavigationController+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51743221CF2D99A00CB5C5F /* UINavigationController+XPKit.swift */; };
+		A51743251CF2DDA900CB5C5F /* UITableViewCell+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51743241CF2DDA900CB5C5F /* UITableViewCell+XPKit.swift */; };
+		A51743271CF2DEB100CB5C5F /* UITableViewController+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51743261CF2DEB100CB5C5F /* UITableViewController+XPKit.swift */; };
+		A51743291CF2FAA200CB5C5F /* NSCalendar+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51743281CF2FAA200CB5C5F /* NSCalendar+XPKit.swift */; };
+		A55C427A1CF3008200FAE31E /* NSMutableString+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55C42791CF3008200FAE31E /* NSMutableString+XPKit.swift */; };
+		A55C427C1CF301D700FAE31E /* NSUserDefaults+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55C427B1CF301D700FAE31E /* NSUserDefaults+XPKit.swift */; };
+		A55C42801CF3066200FAE31E /* UIViewController+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55C427F1CF3066200FAE31E /* UIViewController+XPKit.swift */; };
+		A5E2EA601CF2C576005E658B /* Array+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA271CF2C576005E658B /* Array+XPKit.swift */; };
+		A5E2EA611CF2C576005E658B /* Dictionary+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA281CF2C576005E658B /* Dictionary+XPKit.swift */; };
+		A5E2EA621CF2C576005E658B /* NSArray+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA291CF2C576005E658B /* NSArray+XPKit.swift */; };
+		A5E2EA631CF2C576005E658B /* NSData+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA2A1CF2C576005E658B /* NSData+XPKit.swift */; };
+		A5E2EA641CF2C576005E658B /* NSDate+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA2B1CF2C576005E658B /* NSDate+XPKit.swift */; };
+		A5E2EA651CF2C576005E658B /* NSDictionary+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA2C1CF2C576005E658B /* NSDictionary+XPKit.swift */; };
+		A5E2EA661CF2C576005E658B /* NSFileManager+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA2D1CF2C576005E658B /* NSFileManager+XPKit.swift */; };
+		A5E2EA671CF2C576005E658B /* NSMutableArray+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA2E1CF2C576005E658B /* NSMutableArray+XPKit.swift */; };
+		A5E2EA681CF2C576005E658B /* NSMutableDictionary+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA2F1CF2C576005E658B /* NSMutableDictionary+XPKit.swift */; };
+		A5E2EA691CF2C576005E658B /* NSNumber+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA301CF2C576005E658B /* NSNumber+XPKit.swift */; };
+		A5E2EA6A1CF2C576005E658B /* NSObject+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA311CF2C576005E658B /* NSObject+XPKit.swift */; };
+		A5E2EA6B1CF2C576005E658B /* NSProcessInfo+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA321CF2C576005E658B /* NSProcessInfo+XPKit.swift */; };
+		A5E2EA6C1CF2C576005E658B /* NSString+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA331CF2C576005E658B /* NSString+XPKit.swift */; };
+		A5E2EA6D1CF2C576005E658B /* NSThread+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA341CF2C576005E658B /* NSThread+XPKit.swift */; };
+		A5E2EA6E1CF2C576005E658B /* String+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA351CF2C576005E658B /* String+XPKit.swift */; };
+		A5E2EA6F1CF2C576005E658B /* UIBarButtonItem+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA371CF2C576005E658B /* UIBarButtonItem+XPKit.swift */; };
+		A5E2EA701CF2C576005E658B /* UIButton+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA381CF2C576005E658B /* UIButton+XPKit.swift */; };
+		A5E2EA711CF2C576005E658B /* UIColor+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA391CF2C576005E658B /* UIColor+XPKit.swift */; };
+		A5E2EA721CF2C576005E658B /* UIDevice+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA3A1CF2C576005E658B /* UIDevice+XPKit.swift */; };
+		A5E2EA731CF2C576005E658B /* UIFont+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA3B1CF2C576005E658B /* UIFont+XPKit.swift */; };
+		A5E2EA741CF2C576005E658B /* UIImage+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA3C1CF2C576005E658B /* UIImage+XPKit.swift */; };
+		A5E2EA751CF2C576005E658B /* UIImageView+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA3D1CF2C576005E658B /* UIImageView+XPKit.swift */; };
+		A5E2EA761CF2C576005E658B /* UILabel+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA3E1CF2C576005E658B /* UILabel+XPKit.swift */; };
+		A5E2EA771CF2C576005E658B /* UINavigationBar+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA3F1CF2C576005E658B /* UINavigationBar+XPKit.swift */; };
+		A5E2EA781CF2C576005E658B /* UIPasteboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA401CF2C576005E658B /* UIPasteboard.swift */; };
+		A5E2EA791CF2C576005E658B /* UIScreen+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA411CF2C576005E658B /* UIScreen+XPKit.swift */; };
+		A5E2EA7A1CF2C576005E658B /* UIScrollView+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA421CF2C576005E658B /* UIScrollView+XPKit.swift */; };
+		A5E2EA7B1CF2C576005E658B /* UITableView+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA431CF2C576005E658B /* UITableView+XPKit.swift */; };
+		A5E2EA7C1CF2C576005E658B /* UITextField+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA441CF2C576005E658B /* UITextField+XPKit.swift */; };
+		A5E2EA7D1CF2C576005E658B /* UITextView+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA451CF2C576005E658B /* UITextView+XPKit.swift */; };
+		A5E2EA7E1CF2C576005E658B /* UIToolbar+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA461CF2C576005E658B /* UIToolbar+XPKit.swift */; };
+		A5E2EA7F1CF2C576005E658B /* UIView+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA471CF2C576005E658B /* UIView+XPKit.swift */; };
+		A5E2EA801CF2C576005E658B /* UIWebView+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA481CF2C576005E658B /* UIWebView+XPKit.swift */; };
+		A5E2EA811CF2C576005E658B /* UIWindow+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA491CF2C576005E658B /* UIWindow+XPKit.swift */; };
+		A5E2EA821CF2C576005E658B /* XPKit.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5E2EA4B1CF2C576005E658B /* XPKit.strings */; };
+		A5E2EA831CF2C576005E658B /* XPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA571CF2C576005E658B /* XPApp.swift */; };
+		A5E2EA851CF2C576005E658B /* XPDataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA591CF2C576005E658B /* XPDataStructures.swift */; };
+		A5E2EA871CF2C576005E658B /* XPPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA5B1CF2C576005E658B /* XPPassword.swift */; };
+		A5E2EA881CF2C576005E658B /* XPSystemSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA5C1CF2C576005E658B /* XPSystemSound.swift */; };
+		A5E2EA8A1CF2C576005E658B /* XPTouchID.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA5E1CF2C576005E658B /* XPTouchID.swift */; };
+		A5E2EA8B1CF2C576005E658B /* XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA5F1CF2C576005E658B /* XPKit.swift */; };
+		A5E2EA8D1CF2CCCA005E658B /* UIApplication+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2EA8C1CF2CCCA005E658B /* UIApplication+XPKit.swift */; };
+		A5FEB2AA1CF222550049428A /* XPKit-swift.h in Headers */ = {isa = PBXBuildFile; fileRef = A5FEB2A91CF222550049428A /* XPKit-swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5FEB2B11CF222550049428A /* XPKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FEB2A61CF222550049428A /* XPKit.framework */; };
+		A5FEB2B61CF222550049428A /* XPKit_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FEB2B51CF222550049428A /* XPKit_swiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5FEB2B21CF222550049428A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5FEB29D1CF222550049428A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5FEB2A51CF222550049428A;
+			remoteInfo = "XPKit-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A51743201CF2D32500CB5C5F /* UIControl+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl+XPKit.swift"; sourceTree = "<group>"; };
+		A51743221CF2D99A00CB5C5F /* UINavigationController+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+XPKit.swift"; sourceTree = "<group>"; };
+		A51743241CF2DDA900CB5C5F /* UITableViewCell+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+XPKit.swift"; sourceTree = "<group>"; };
+		A51743261CF2DEB100CB5C5F /* UITableViewController+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewController+XPKit.swift"; sourceTree = "<group>"; };
+		A51743281CF2FAA200CB5C5F /* NSCalendar+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSCalendar+XPKit.swift"; sourceTree = "<group>"; };
+		A55C42791CF3008200FAE31E /* NSMutableString+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableString+XPKit.swift"; sourceTree = "<group>"; };
+		A55C427B1CF301D700FAE31E /* NSUserDefaults+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSUserDefaults+XPKit.swift"; sourceTree = "<group>"; };
+		A55C427F1CF3066200FAE31E /* UIViewController+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA271CF2C576005E658B /* Array+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA281CF2C576005E658B /* Dictionary+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA291CF2C576005E658B /* NSArray+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSArray+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA2A1CF2C576005E658B /* NSData+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSData+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA2B1CF2C576005E658B /* NSDate+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA2C1CF2C576005E658B /* NSDictionary+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDictionary+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA2D1CF2C576005E658B /* NSFileManager+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSFileManager+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA2E1CF2C576005E658B /* NSMutableArray+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableArray+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA2F1CF2C576005E658B /* NSMutableDictionary+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableDictionary+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA301CF2C576005E658B /* NSNumber+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSNumber+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA311CF2C576005E658B /* NSObject+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA321CF2C576005E658B /* NSProcessInfo+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSProcessInfo+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA331CF2C576005E658B /* NSString+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA341CF2C576005E658B /* NSThread+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSThread+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA351CF2C576005E658B /* String+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA371CF2C576005E658B /* UIBarButtonItem+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA381CF2C576005E658B /* UIButton+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA391CF2C576005E658B /* UIColor+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA3A1CF2C576005E658B /* UIDevice+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA3B1CF2C576005E658B /* UIFont+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA3C1CF2C576005E658B /* UIImage+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA3D1CF2C576005E658B /* UIImageView+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA3E1CF2C576005E658B /* UILabel+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA3F1CF2C576005E658B /* UINavigationBar+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA401CF2C576005E658B /* UIPasteboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPasteboard.swift; sourceTree = "<group>"; };
+		A5E2EA411CF2C576005E658B /* UIScreen+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScreen+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA421CF2C576005E658B /* UIScrollView+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA431CF2C576005E658B /* UITableView+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA441CF2C576005E658B /* UITextField+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA451CF2C576005E658B /* UITextView+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA461CF2C576005E658B /* UIToolbar+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIToolbar+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA471CF2C576005E658B /* UIView+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA481CF2C576005E658B /* UIWebView+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWebView+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA491CF2C576005E658B /* UIWindow+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+XPKit.swift"; sourceTree = "<group>"; };
+		A5E2EA4C1CF2C576005E658B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/XPKit.strings; sourceTree = "<group>"; };
+		A5E2EA4D1CF2C576005E658B /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/XPKit.strings; sourceTree = "<group>"; };
+		A5E2EA4E1CF2C576005E658B /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/XPKit.strings; sourceTree = "<group>"; };
+		A5E2EA4F1CF2C576005E658B /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/XPKit.strings"; sourceTree = "<group>"; };
+		A5E2EA501CF2C576005E658B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/XPKit.strings; sourceTree = "<group>"; };
+		A5E2EA511CF2C576005E658B /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/XPKit.strings; sourceTree = "<group>"; };
+		A5E2EA521CF2C576005E658B /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/XPKit.strings; sourceTree = "<group>"; };
+		A5E2EA531CF2C576005E658B /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/XPKit.strings; sourceTree = "<group>"; };
+		A5E2EA541CF2C576005E658B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/XPKit.strings"; sourceTree = "<group>"; };
+		A5E2EA551CF2C576005E658B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/XPKit.strings"; sourceTree = "<group>"; };
+		A5E2EA571CF2C576005E658B /* XPApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPApp.swift; sourceTree = "<group>"; };
+		A5E2EA591CF2C576005E658B /* XPDataStructures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPDataStructures.swift; sourceTree = "<group>"; };
+		A5E2EA5B1CF2C576005E658B /* XPPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPPassword.swift; sourceTree = "<group>"; };
+		A5E2EA5C1CF2C576005E658B /* XPSystemSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPSystemSound.swift; sourceTree = "<group>"; };
+		A5E2EA5E1CF2C576005E658B /* XPTouchID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPTouchID.swift; sourceTree = "<group>"; };
+		A5E2EA5F1CF2C576005E658B /* XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPKit.swift; sourceTree = "<group>"; };
+		A5E2EA8C1CF2CCCA005E658B /* UIApplication+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+XPKit.swift"; sourceTree = "<group>"; };
+		A5FEB2A61CF222550049428A /* XPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5FEB2A91CF222550049428A /* XPKit-swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XPKit-swift.h"; sourceTree = "<group>"; };
+		A5FEB2AB1CF222550049428A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5FEB2B01CF222550049428A /* XPKit-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XPKit-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5FEB2B51CF222550049428A /* XPKit_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XPKit_swiftTests.swift; sourceTree = "<group>"; };
+		A5FEB2B71CF222550049428A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5FEB2A21CF222550049428A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FEB2AD1CF222550049428A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FEB2B11CF222550049428A /* XPKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5E2EA241CF2C576005E658B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A5E2EA251CF2C576005E658B /* Extensions */,
+				A5E2EA4A1CF2C576005E658B /* Languages */,
+				A5E2EA561CF2C576005E658B /* XPKit */,
+				A5E2EA5F1CF2C576005E658B /* XPKit.swift */,
+			);
+			name = Source;
+			path = ../../Source;
+			sourceTree = "<group>";
+		};
+		A5E2EA251CF2C576005E658B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A5E2EA261CF2C576005E658B /* Foundation */,
+				A5E2EA361CF2C576005E658B /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A5E2EA261CF2C576005E658B /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				A5E2EA271CF2C576005E658B /* Array+XPKit.swift */,
+				A5E2EA281CF2C576005E658B /* Dictionary+XPKit.swift */,
+				A5E2EA291CF2C576005E658B /* NSArray+XPKit.swift */,
+				A5E2EA2A1CF2C576005E658B /* NSData+XPKit.swift */,
+				A5E2EA2B1CF2C576005E658B /* NSDate+XPKit.swift */,
+				A5E2EA2C1CF2C576005E658B /* NSDictionary+XPKit.swift */,
+				A5E2EA2D1CF2C576005E658B /* NSFileManager+XPKit.swift */,
+				A5E2EA2E1CF2C576005E658B /* NSMutableArray+XPKit.swift */,
+				A5E2EA2F1CF2C576005E658B /* NSMutableDictionary+XPKit.swift */,
+				A55C42791CF3008200FAE31E /* NSMutableString+XPKit.swift */,
+				A5E2EA301CF2C576005E658B /* NSNumber+XPKit.swift */,
+				A5E2EA311CF2C576005E658B /* NSObject+XPKit.swift */,
+				A5E2EA321CF2C576005E658B /* NSProcessInfo+XPKit.swift */,
+				A5E2EA331CF2C576005E658B /* NSString+XPKit.swift */,
+				A5E2EA341CF2C576005E658B /* NSThread+XPKit.swift */,
+				A5E2EA351CF2C576005E658B /* String+XPKit.swift */,
+				A51743281CF2FAA200CB5C5F /* NSCalendar+XPKit.swift */,
+				A55C427B1CF301D700FAE31E /* NSUserDefaults+XPKit.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		A5E2EA361CF2C576005E658B /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				A5E2EA371CF2C576005E658B /* UIBarButtonItem+XPKit.swift */,
+				A5E2EA381CF2C576005E658B /* UIButton+XPKit.swift */,
+				A5E2EA391CF2C576005E658B /* UIColor+XPKit.swift */,
+				A5E2EA3A1CF2C576005E658B /* UIDevice+XPKit.swift */,
+				A5E2EA3B1CF2C576005E658B /* UIFont+XPKit.swift */,
+				A5E2EA3C1CF2C576005E658B /* UIImage+XPKit.swift */,
+				A5E2EA3D1CF2C576005E658B /* UIImageView+XPKit.swift */,
+				A5E2EA3E1CF2C576005E658B /* UILabel+XPKit.swift */,
+				A5E2EA3F1CF2C576005E658B /* UINavigationBar+XPKit.swift */,
+				A5E2EA401CF2C576005E658B /* UIPasteboard.swift */,
+				A5E2EA411CF2C576005E658B /* UIScreen+XPKit.swift */,
+				A5E2EA421CF2C576005E658B /* UIScrollView+XPKit.swift */,
+				A5E2EA431CF2C576005E658B /* UITableView+XPKit.swift */,
+				A5E2EA441CF2C576005E658B /* UITextField+XPKit.swift */,
+				A5E2EA451CF2C576005E658B /* UITextView+XPKit.swift */,
+				A5E2EA461CF2C576005E658B /* UIToolbar+XPKit.swift */,
+				A5E2EA471CF2C576005E658B /* UIView+XPKit.swift */,
+				A5E2EA481CF2C576005E658B /* UIWebView+XPKit.swift */,
+				A5E2EA491CF2C576005E658B /* UIWindow+XPKit.swift */,
+				A5E2EA8C1CF2CCCA005E658B /* UIApplication+XPKit.swift */,
+				A51743201CF2D32500CB5C5F /* UIControl+XPKit.swift */,
+				A51743221CF2D99A00CB5C5F /* UINavigationController+XPKit.swift */,
+				A51743241CF2DDA900CB5C5F /* UITableViewCell+XPKit.swift */,
+				A51743261CF2DEB100CB5C5F /* UITableViewController+XPKit.swift */,
+				A55C427F1CF3066200FAE31E /* UIViewController+XPKit.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		A5E2EA4A1CF2C576005E658B /* Languages */ = {
+			isa = PBXGroup;
+			children = (
+				A5E2EA4B1CF2C576005E658B /* XPKit.strings */,
+			);
+			path = Languages;
+			sourceTree = "<group>";
+		};
+		A5E2EA561CF2C576005E658B /* XPKit */ = {
+			isa = PBXGroup;
+			children = (
+				A5E2EA571CF2C576005E658B /* XPApp.swift */,
+				A5E2EA591CF2C576005E658B /* XPDataStructures.swift */,
+				A5E2EA5B1CF2C576005E658B /* XPPassword.swift */,
+				A5E2EA5C1CF2C576005E658B /* XPSystemSound.swift */,
+				A5E2EA5E1CF2C576005E658B /* XPTouchID.swift */,
+			);
+			path = XPKit;
+			sourceTree = "<group>";
+		};
+		A5FEB29C1CF222550049428A = {
+			isa = PBXGroup;
+			children = (
+				A5FEB2A81CF222550049428A /* XPKit-swift */,
+				A5FEB2B41CF222550049428A /* XPKit-swiftTests */,
+				A5FEB2A71CF222550049428A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5FEB2A71CF222550049428A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5FEB2A61CF222550049428A /* XPKit.framework */,
+				A5FEB2B01CF222550049428A /* XPKit-swiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5FEB2A81CF222550049428A /* XPKit-swift */ = {
+			isa = PBXGroup;
+			children = (
+				A5E2EA241CF2C576005E658B /* Source */,
+				A5FEB2A91CF222550049428A /* XPKit-swift.h */,
+				A5FEB2AB1CF222550049428A /* Info.plist */,
+			);
+			path = "XPKit-swift";
+			sourceTree = "<group>";
+		};
+		A5FEB2B41CF222550049428A /* XPKit-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5FEB2B51CF222550049428A /* XPKit_swiftTests.swift */,
+				A5FEB2B71CF222550049428A /* Info.plist */,
+			);
+			path = "XPKit-swiftTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A5FEB2A31CF222550049428A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FEB2AA1CF222550049428A /* XPKit-swift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A5FEB2A51CF222550049428A /* XPKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5FEB2BA1CF222550049428A /* Build configuration list for PBXNativeTarget "XPKit" */;
+			buildPhases = (
+				A5FEB2A11CF222550049428A /* Sources */,
+				A5FEB2A21CF222550049428A /* Frameworks */,
+				A5FEB2A31CF222550049428A /* Headers */,
+				A5FEB2A41CF222550049428A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XPKit;
+			productName = "XPKit-swift";
+			productReference = A5FEB2A61CF222550049428A /* XPKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A5FEB2AF1CF222550049428A /* XPKit-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5FEB2BD1CF222550049428A /* Build configuration list for PBXNativeTarget "XPKit-swiftTests" */;
+			buildPhases = (
+				A5FEB2AC1CF222550049428A /* Sources */,
+				A5FEB2AD1CF222550049428A /* Frameworks */,
+				A5FEB2AE1CF222550049428A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5FEB2B31CF222550049428A /* PBXTargetDependency */,
+			);
+			name = "XPKit-swiftTests";
+			productName = "XPKit-swiftTests";
+			productReference = A5FEB2B01CF222550049428A /* XPKit-swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5FEB29D1CF222550049428A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = huangxinping;
+				TargetAttributes = {
+					A5FEB2A51CF222550049428A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A5FEB2AF1CF222550049428A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = A5FEB2A01CF222550049428A /* Build configuration list for PBXProject "XPKit-swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				id,
+				it,
+				"pt-BR",
+				ru,
+				sv,
+				uk,
+				vi,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = A5FEB29C1CF222550049428A;
+			productRefGroup = A5FEB2A71CF222550049428A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5FEB2A51CF222550049428A /* XPKit */,
+				A5FEB2AF1CF222550049428A /* XPKit-swiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5FEB2A41CF222550049428A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E2EA821CF2C576005E658B /* XPKit.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FEB2AE1CF222550049428A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5FEB2A11CF222550049428A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E2EA691CF2C576005E658B /* NSNumber+XPKit.swift in Sources */,
+				A5E2EA8B1CF2C576005E658B /* XPKit.swift in Sources */,
+				A5E2EA7F1CF2C576005E658B /* UIView+XPKit.swift in Sources */,
+				A5E2EA621CF2C576005E658B /* NSArray+XPKit.swift in Sources */,
+				A5E2EA781CF2C576005E658B /* UIPasteboard.swift in Sources */,
+				A5E2EA8A1CF2C576005E658B /* XPTouchID.swift in Sources */,
+				A5E2EA871CF2C576005E658B /* XPPassword.swift in Sources */,
+				A5E2EA611CF2C576005E658B /* Dictionary+XPKit.swift in Sources */,
+				A55C427C1CF301D700FAE31E /* NSUserDefaults+XPKit.swift in Sources */,
+				A5E2EA6B1CF2C576005E658B /* NSProcessInfo+XPKit.swift in Sources */,
+				A51743271CF2DEB100CB5C5F /* UITableViewController+XPKit.swift in Sources */,
+				A5E2EA6E1CF2C576005E658B /* String+XPKit.swift in Sources */,
+				A5E2EA7E1CF2C576005E658B /* UIToolbar+XPKit.swift in Sources */,
+				A5E2EA801CF2C576005E658B /* UIWebView+XPKit.swift in Sources */,
+				A55C42801CF3066200FAE31E /* UIViewController+XPKit.swift in Sources */,
+				A5E2EA7D1CF2C576005E658B /* UITextView+XPKit.swift in Sources */,
+				A5E2EA7A1CF2C576005E658B /* UIScrollView+XPKit.swift in Sources */,
+				A5E2EA851CF2C576005E658B /* XPDataStructures.swift in Sources */,
+				A5E2EA731CF2C576005E658B /* UIFont+XPKit.swift in Sources */,
+				A5E2EA681CF2C576005E658B /* NSMutableDictionary+XPKit.swift in Sources */,
+				A5E2EA791CF2C576005E658B /* UIScreen+XPKit.swift in Sources */,
+				A5E2EA6C1CF2C576005E658B /* NSString+XPKit.swift in Sources */,
+				A5E2EA761CF2C576005E658B /* UILabel+XPKit.swift in Sources */,
+				A5E2EA7C1CF2C576005E658B /* UITextField+XPKit.swift in Sources */,
+				A5E2EA671CF2C576005E658B /* NSMutableArray+XPKit.swift in Sources */,
+				A51743291CF2FAA200CB5C5F /* NSCalendar+XPKit.swift in Sources */,
+				A5E2EA6A1CF2C576005E658B /* NSObject+XPKit.swift in Sources */,
+				A5E2EA831CF2C576005E658B /* XPApp.swift in Sources */,
+				A51743211CF2D32500CB5C5F /* UIControl+XPKit.swift in Sources */,
+				A5E2EA601CF2C576005E658B /* Array+XPKit.swift in Sources */,
+				A5E2EA641CF2C576005E658B /* NSDate+XPKit.swift in Sources */,
+				A5E2EA721CF2C576005E658B /* UIDevice+XPKit.swift in Sources */,
+				A5E2EA661CF2C576005E658B /* NSFileManager+XPKit.swift in Sources */,
+				A55C427A1CF3008200FAE31E /* NSMutableString+XPKit.swift in Sources */,
+				A51743231CF2D99A00CB5C5F /* UINavigationController+XPKit.swift in Sources */,
+				A5E2EA7B1CF2C576005E658B /* UITableView+XPKit.swift in Sources */,
+				A5E2EA881CF2C576005E658B /* XPSystemSound.swift in Sources */,
+				A5E2EA811CF2C576005E658B /* UIWindow+XPKit.swift in Sources */,
+				A5E2EA711CF2C576005E658B /* UIColor+XPKit.swift in Sources */,
+				A5E2EA751CF2C576005E658B /* UIImageView+XPKit.swift in Sources */,
+				A5E2EA631CF2C576005E658B /* NSData+XPKit.swift in Sources */,
+				A5E2EA8D1CF2CCCA005E658B /* UIApplication+XPKit.swift in Sources */,
+				A5E2EA651CF2C576005E658B /* NSDictionary+XPKit.swift in Sources */,
+				A5E2EA741CF2C576005E658B /* UIImage+XPKit.swift in Sources */,
+				A5E2EA771CF2C576005E658B /* UINavigationBar+XPKit.swift in Sources */,
+				A5E2EA6D1CF2C576005E658B /* NSThread+XPKit.swift in Sources */,
+				A5E2EA6F1CF2C576005E658B /* UIBarButtonItem+XPKit.swift in Sources */,
+				A51743251CF2DDA900CB5C5F /* UITableViewCell+XPKit.swift in Sources */,
+				A5E2EA701CF2C576005E658B /* UIButton+XPKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FEB2AC1CF222550049428A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FEB2B61CF222550049428A /* XPKit_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5FEB2B31CF222550049428A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5FEB2A51CF222550049428A /* XPKit */;
+			targetProxy = A5FEB2B21CF222550049428A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5E2EA4B1CF2C576005E658B /* XPKit.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5E2EA4C1CF2C576005E658B /* en */,
+				A5E2EA4D1CF2C576005E658B /* id */,
+				A5E2EA4E1CF2C576005E658B /* it */,
+				A5E2EA4F1CF2C576005E658B /* pt-BR */,
+				A5E2EA501CF2C576005E658B /* ru */,
+				A5E2EA511CF2C576005E658B /* sv */,
+				A5E2EA521CF2C576005E658B /* uk */,
+				A5E2EA531CF2C576005E658B /* vi */,
+				A5E2EA541CF2C576005E658B /* zh-Hans */,
+				A5E2EA551CF2C576005E658B /* zh-Hant */,
+			);
+			name = XPKit.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5FEB2B81CF222550049428A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5FEB2B91CF222550049428A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A5FEB2BB1CF222550049428A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "XPKit-swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iiseeuu.xpkit-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A5FEB2BC1CF222550049428A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "XPKit-swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iiseeuu.xpkit-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A5FEB2BE1CF222550049428A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "XPKit-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iiseeuu.XPKit-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5FEB2BF1CF222550049428A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "XPKit-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iiseeuu.XPKit-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5FEB2A01CF222550049428A /* Build configuration list for PBXProject "XPKit-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FEB2B81CF222550049428A /* Debug */,
+				A5FEB2B91CF222550049428A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5FEB2BA1CF222550049428A /* Build configuration list for PBXNativeTarget "XPKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FEB2BB1CF222550049428A /* Debug */,
+				A5FEB2BC1CF222550049428A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5FEB2BD1CF222550049428A /* Build configuration list for PBXNativeTarget "XPKit-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FEB2BE1CF222550049428A /* Debug */,
+				A5FEB2BF1CF222550049428A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5FEB29D1CF222550049428A /* Project object */;
+}
