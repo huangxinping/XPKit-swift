@@ -1,5 +1,5 @@
 //
-//  UIViewController+XPKit.swift
+//  UIAlertController+XPKit.swift
 //  XPKit
 //
 //  The MIT License (MIT)
@@ -24,29 +24,13 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
-import Foundation
 import UIKit
 
-/// This extesion adds some useful functions to UIViewController
-public extension UIViewController {
+public extension UIAlertController {
 
-	// MARK: - Class functions -
+	func show() {
 
-	public class func viewControllerWithStoryboardName(stroryboardName: String, viewCotrollerIdentifier: String) -> UIViewController {
-		let storyboard = UIStoryboard(name: stroryboardName, bundle: NSBundle.mainBundle())
-		return storyboard.instantiateViewControllerWithIdentifier(viewCotrollerIdentifier)
-	}
-
-	class func topMostController() -> UIViewController {
-
-		var topController = UIApplication.sharedApplication().keyWindow!.rootViewController
-
-		while ((topController!.presentedViewController) != nil) {
-
-			topController = topController!.presentedViewController;
+		UIViewController.topMostController().presentViewController(self, animated: true) { () -> Void in
 		}
-
-		return topController!
 	}
-
 }

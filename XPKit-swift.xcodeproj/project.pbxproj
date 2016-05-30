@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A510DB4B1CFC869100B6DFE6 /* CGPoint+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A510DB491CFC869100B6DFE6 /* CGPoint+XPKit.swift */; };
+		A510DB4C1CFC869100B6DFE6 /* CGRect+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A510DB4A1CFC869100B6DFE6 /* CGRect+XPKit.swift */; };
+		A510DB4E1CFC881E00B6DFE6 /* UIAlertController+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A510DB4D1CFC881E00B6DFE6 /* UIAlertController+XPKit.swift */; };
 		A51743211CF2D32500CB5C5F /* UIControl+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51743201CF2D32500CB5C5F /* UIControl+XPKit.swift */; };
 		A51743231CF2D99A00CB5C5F /* UINavigationController+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51743221CF2D99A00CB5C5F /* UINavigationController+XPKit.swift */; };
 		A51743251CF2DDA900CB5C5F /* UITableViewCell+XPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51743241CF2DDA900CB5C5F /* UITableViewCell+XPKit.swift */; };
@@ -73,6 +76,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A510DB491CFC869100B6DFE6 /* CGPoint+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+XPKit.swift"; sourceTree = "<group>"; };
+		A510DB4A1CFC869100B6DFE6 /* CGRect+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+XPKit.swift"; sourceTree = "<group>"; };
+		A510DB4D1CFC881E00B6DFE6 /* UIAlertController+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+XPKit.swift"; sourceTree = "<group>"; };
 		A51743201CF2D32500CB5C5F /* UIControl+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl+XPKit.swift"; sourceTree = "<group>"; };
 		A51743221CF2D99A00CB5C5F /* UINavigationController+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+XPKit.swift"; sourceTree = "<group>"; };
 		A51743241CF2DDA900CB5C5F /* UITableViewCell+XPKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+XPKit.swift"; sourceTree = "<group>"; };
@@ -208,6 +214,9 @@
 		A5E2EA361CF2C576005E658B /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				A510DB491CFC869100B6DFE6 /* CGPoint+XPKit.swift */,
+				A510DB4A1CFC869100B6DFE6 /* CGRect+XPKit.swift */,
+				A510DB4D1CFC881E00B6DFE6 /* UIAlertController+XPKit.swift */,
 				A5E2EA371CF2C576005E658B /* UIBarButtonItem+XPKit.swift */,
 				A5E2EA381CF2C576005E658B /* UIButton+XPKit.swift */,
 				A5E2EA391CF2C576005E658B /* UIColor+XPKit.swift */,
@@ -437,6 +446,7 @@
 				A5E2EA761CF2C576005E658B /* UILabel+XPKit.swift in Sources */,
 				A5E2EA7C1CF2C576005E658B /* UITextField+XPKit.swift in Sources */,
 				A5E2EA671CF2C576005E658B /* NSMutableArray+XPKit.swift in Sources */,
+				A510DB4B1CFC869100B6DFE6 /* CGPoint+XPKit.swift in Sources */,
 				A51743291CF2FAA200CB5C5F /* NSCalendar+XPKit.swift in Sources */,
 				A5E2EA6A1CF2C576005E658B /* NSObject+XPKit.swift in Sources */,
 				A5E2EA831CF2C576005E658B /* XPApp.swift in Sources */,
@@ -445,12 +455,14 @@
 				A5E2EA641CF2C576005E658B /* NSDate+XPKit.swift in Sources */,
 				A5E2EA721CF2C576005E658B /* UIDevice+XPKit.swift in Sources */,
 				A5E2EA661CF2C576005E658B /* NSFileManager+XPKit.swift in Sources */,
+				A510DB4E1CFC881E00B6DFE6 /* UIAlertController+XPKit.swift in Sources */,
 				A55C427A1CF3008200FAE31E /* NSMutableString+XPKit.swift in Sources */,
 				A51743231CF2D99A00CB5C5F /* UINavigationController+XPKit.swift in Sources */,
 				A5E2EA7B1CF2C576005E658B /* UITableView+XPKit.swift in Sources */,
 				A5E2EA881CF2C576005E658B /* XPSystemSound.swift in Sources */,
 				A5E2EA811CF2C576005E658B /* UIWindow+XPKit.swift in Sources */,
 				A5E2EA711CF2C576005E658B /* UIColor+XPKit.swift in Sources */,
+				A510DB4C1CFC869100B6DFE6 /* CGRect+XPKit.swift in Sources */,
 				A5E2EA751CF2C576005E658B /* UIImageView+XPKit.swift in Sources */,
 				A5E2EA631CF2C576005E658B /* NSData+XPKit.swift in Sources */,
 				A5E2EA8D1CF2CCCA005E658B /* UIApplication+XPKit.swift in Sources */,
